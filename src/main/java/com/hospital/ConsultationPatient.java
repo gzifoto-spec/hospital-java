@@ -27,11 +27,11 @@ public class ConsultationPatient extends  Patient{
     }
 
     public void  nurseControl() {
-        System.out.println(getName() + "está bajo control de enfermería");
+        System.out.println(getName() + " está bajo control de enfermería");
 
     }
 
     public void nextAppointment() {
-        System.out.println("La siguiente cita de" + getName() + "ha sido marcada en el calendario");
+        System.out.println("La siguiente cita de " + getName() + " ha sido marcada en el calendario");
     }
 }
