@@ -19,7 +19,7 @@ public class SpecialistDoctor extends Doctor{
 
     @Override
     public  void weeklyWorkHours() {
-        System.out.println("Dr/a " + getName() + " trabaja " + getWeeklyHours() + "horas semanales");
+        System.out.println("Dr/a " + getName() + " trabaja " + getWeeklyHours() + " horas semanales");
     }
 
     @Override
