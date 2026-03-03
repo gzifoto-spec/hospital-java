@@ -4,8 +4,8 @@ public class SpecialistDoctor extends Doctor{
 
     private String specialty;
 
-    public SpecialistDoctor(String name, int age, String idNumber, String employeeCode, String specialty) {
-        super(name, age, idNumber, employeeCode);
+    public SpecialistDoctor(String name, int age, String idNumber, String employeeCode, String specialty, int weeklyHours) {
+        super(name, age, idNumber, employeeCode, weeklyHours);
         this.specialty = specialty;
     }
 
@@ -19,7 +19,7 @@ public class SpecialistDoctor extends Doctor{
 
     @Override
     public  void weeklyWorkHours() {
-        System.out.println("Dr/a " + getName() + " trabaja 40 horas semanales");
+        System.out.println("Dr/a " + getName() + " trabaja " + getWeeklyHours() + "horas semanales");
     }
 
     @Override
