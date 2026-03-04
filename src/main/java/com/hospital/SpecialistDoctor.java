@@ -18,6 +18,11 @@ public class SpecialistDoctor extends Doctor{
     }
 
     @Override
+    public String toString() {
+        return super.toString() + " | Código: " + getEmployeeCode() + " | Especialidad: " + getSpecialty();
+    }
+
+    @Override
     public  void weeklyWorkHours() {
         System.out.println("Dr/a " + getName() + " trabaja " + getWeeklyHours() + " horas semanales");
     }
