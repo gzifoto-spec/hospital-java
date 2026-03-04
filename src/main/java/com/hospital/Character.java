@@ -35,4 +35,10 @@ public abstract class Character {
     public void setIdNumber(String idNumber) {
         this.idNumber = idNumber;
     }
+
+    @Override
+    public String toString(){
+        return "Nombre: " + name + " | Edad: " + age + " | ID: " + idNumber;
+    }
+
 }
