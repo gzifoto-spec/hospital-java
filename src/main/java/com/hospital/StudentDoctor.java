@@ -28,6 +28,11 @@ public class StudentDoctor extends Doctor{
     }
 
     @Override
+    public String toString() {
+        return super.toString() + " | Código: " + getEmployeeCode() + " | Cursando: " + getCurrentCourse();
+    }
+
+    @Override
     public void weeklyWorkHours() {
         System.out.println("El/la estudiante " + getName() + " trabaja " + getWeeklyHours() + " horas semanales");
     }
